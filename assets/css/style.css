@@ -1,0 +1,418 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #1b1b1b;
+    color: white;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: unset;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+}
+
+a.navbar-brand img {
+    transform: rotate(-90deg);
+    width: 27px;
+    position: absolute;
+    top: -45px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: white !important;
+}
+
+.global-defi-section {
+    margin-top: 70px;
+}
+
+.global-defi-info {
+    padding-left: 130px;
+}
+
+.global-defi-info p {
+    color: #55F5C5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.global-defi-info h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 58px;
+    color: white;
+}
+
+.global-defi-info button {
+    background: #55F5C5;
+    border: none;
+    border-radius: inherit;
+    padding: 6px 28px;
+    margin-top: 31px;
+    font-weight: 500;
+}
+
+.img-vector {
+    position: relative;
+    margin-left: 35px;
+}
+
+.img-vector img {
+    width: 90px;
+}
+
+img.vec-one {
+    margin-top: 49px;
+}
+
+img.vec-two {
+    position: absolute;
+    top: 63px;
+    left: 0;
+}
+
+img.vec-three {
+    position: absolute;
+    top: 77px;
+    left: 0px;
+}
+
+img.vec-four {
+    position: absolute;
+    top: 91px;
+    left: 0;
+}
+
+.global-defi-img img {
+    width: 100%;
+}
+
+img.global-one {
+    width: 90%;
+}
+
+.timer_set.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.days p {
+    color: #A4A4A4;
+    font-size: 11px;
+    text-transform: capitalize;
+    /* padding: 0px; */
+}
+
+.days h5 {
+    margin: 0px;
+    font-size: 46px;
+}
+
+.days {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 28px 114px;
+}
+
+.timer {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 34px 0px;
+}
+
+.topics-we-cover h5 {
+    font-size: 41px;
+    font-weight: 700;
+    padding-left: 125px;
+}
+
+.topics-heading {
+    border-bottom: 1px solid gray;
+    line-height: 3;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.topics-heading i {
+    padding-right: 10px;
+
+}
+
+.topics-we-cover-left {
+    width: 77%;
+    margin-left: auto;
+}
+
+.topics-we-cover-right {
+    margin-left: 85px;
+    margin-top: -45px;
+}
+
+.topics-we-cover-right img {
+    width: 64%;
+}
+
+.about-submit-section {
+    padding: 120px 0px;
+}
+
+.about-sub-img {
+    text-align: center;
+}
+
+.about-sub-img img {
+    margin-top: 27px;
+}
+
+.about-sub-content h1 {
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 65px;
+}
+
+.about-sub-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A4A4A4;
+    text-align: justify;
+    margin-right: 70px;
+}
+
+.about-sub-content button {
+    background: #55F5C5;
+    border: none;
+    border-radius: inherit;
+    padding: 6px 28px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.vector-right {
+    position: relative;
+}
+
+.vector-right img {
+    width: 13%;
+    position: absolute;
+    right: 0;
+    top: -111px;
+}
+
+img.elipse-one {
+    width: 3%;
+    top: -61px;
+}
+
+.Partners-section h1 {
+    padding-left: 137px;
+    margin-bottom: 43px;
+}
+
+.Partners-list p {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid #373737;
+}
+
+.Partners-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.Partners-list p {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid #373737;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.Partners-list img {
+    width: 100%;
+}
+
+.attend-img-section {
+    padding: 100px 0px;
+}
+
+.attend-img {
+    text-align: center;
+    position: relative;
+}
+
+.attend-img img {
+    margin-top: 33px;
+}
+
+.attend-img span {
+    position: absolute;
+    top: 21px;
+    right: 70;
+}
+
+.attend-img span img {
+    width: 33%;
+}
+
+.attend-content p {
+    margin-bottom: 0px;
+}
+
+.attend-content p a {
+    color: white;
+    text-decoration: none;
+}
+
+.attend-content button {
+    background: #55F5C5;
+    border: none;
+    border-radius: inherit;
+    padding: 6px 28px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.attend-content {
+    float: left;
+}
+
+.attend-right-img img {
+    margin-left: 83px;
+}
+
+.attend-right-img {
+    position: relative;
+}
+
+img.right-one {
+    width: 7%;
+}
+
+img.right-two {
+    position: absolute;
+    width: 33%;
+    left: 257px;
+    top: 44px;
+}
+
+img.right-three {
+    position: absolute;
+    width: 37%;
+    left: 241px;
+    top: 64px;
+}
+
+img.right-four {
+    position: absolute;
+    width: 8px;
+    left: 247px;
+    top: 40px;
+    transform: rotate(26deg);
+}
+
+img.right-five {
+    position: absolute;
+    width: 8px;
+    top: 93px;
+    right: 20px;
+    transform: rotate(-30deg);
+}
+
+img.right-six {
+    width: 13px;
+    position: absolute;
+    top: 223px;
+    right: 156px;
+}
+.ticket-section h1 {
+    text-align: center;
+    font-weight: bold;
+}
+.ticket-section p {
+    text-align: center;
+    color: #A4A4A4;
+    font-size: 11px;
+}
+.ti-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    margin: 45px 0px;
+}
+.tickets-box {
+    background: #272727;
+    text-align: center;
+    position: relative;
+}
+.tickets-box h5 {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-bottom: 1px dotted black;
+    padding: 10px 0px;
+}
+.tickets-box h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #55F5C5;
+}
+.tickets-box h3:hover {
+    color: #FF7A00;
+}
+.tickets-box button {
+    background: none;
+    border: 1px solid #55F5C5;
+    color: #55F5C5;
+    padding: 7px 23px;
+    font-size: 12px;
+}
+.tickets-box button:hover {
+    background: #55F5C5;
+    color: black;
+}
+.tickets-box h6 {
+    font-size: 10px;
+    line-height: 11px;
+    text-align: center;
+    color: #A4A4A4;
+    margin-bottom: 20px;
+}
+.tickets-box p {
+    font-size: 9px;
+    line-height: 29px;
+    color: #A4A4A4;
+    padding: 16px 13px;
+}
+.tickets-box img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}

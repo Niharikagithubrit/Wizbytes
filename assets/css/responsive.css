@@ -1,0 +1,140 @@
+@media only screen and (max-width: 480px) {
+    button.navbar-toggler {
+    position: absolute;
+    right: 0;
+}
+.navbar-toggler {
+    background-color: white;
+}
+ul.navbar-nav {
+    margin-top: 47px;
+}
+a.navbar-brand img {
+    left: 78px;
+}
+ .global-defi-section {
+    margin-top: 65px;
+}
+.global-defi-info h1 {
+    font-size: 29px;
+    line-height: 37px;
+}
+.global-defi-info img {
+    width: 115px;
+}
+.global-defi-info button {
+    margin-top: 16px;
+}
+  .timer_set.flex-container {
+    display: block;
+    justify-content: stretch;
+}
+.attend-right-img {
+    display: none;
+}
+.global-defi-info {
+    padding-left: 0;
+    text-align: center;
+}
+.img-vector {
+    display: none;
+}
+.global-defi-img {
+    margin-top: 50px;
+    text-align: center;
+}
+.days {
+    border-bottom: 1px solid gray;
+     padding: 0px; 
+    text-align: center;
+}
+.timer {
+    margin: 34px 80px;
+}
+.timer .container {
+    padding: 0px;
+}
+.topics-we-cover h5 {
+    font-size: 30px;
+    padding-left: 0px;
+    text-align: center;
+}
+.topics-we-cover-left {
+    width: 80%;
+    margin: 0px 41px;
+}
+.topics-heading {
+    margin-top: 10px;
+    line-height: 2.5;
+    font-size: 11px;
+}
+.topics-we-cover-right {
+     margin-left: 0px; 
+    margin-top: 45px;
+}
+.topics-we-cover-right img {
+    width: 90%;
+}
+img.elipse-one {
+    right: 5px;
+    width: 9%;
+    top: -61px;
+}
+img.elipse-two {
+    width: 46%;
+    top: -80px;
+}
+.about-sub-img img {
+    width: 80%;
+}
+.about-sub-content h1 {
+    font-size: 30px;
+    text-align: center;
+}
+.about-sub-content p {
+    margin-right: 0px; 
+    margin: 0px 30px;
+}
+.about-btn {
+    text-align: center;
+}
+.about-submit-section {
+    padding-bottom: 36px;
+}
+.Partners-section h1 {
+     padding-left: 0px; 
+    text-align: center;
+}
+.Partners-list {
+    text-align: -webkit-center;
+    display: block;
+}
+.Partners-list p {
+    width: 164px;
+    height: 164px;
+    line-height: 164px;
+}
+.attend-img-section {
+    padding: 20px 0px;
+}
+.attend-content {
+    float: unset; 
+    margin: 0px 16px;
+}
+.attend-img img {
+    margin-bottom: 23px;
+}
+.attend-img span img {
+    display: none;
+}
+.tickets-box {
+    margin: 0px 65px;
+}
+.ti-boxes {
+    display: block;
+     margin: 0px; 
+}
+.tickets-box p {
+    padding: 32px 13px;
+}
+}
